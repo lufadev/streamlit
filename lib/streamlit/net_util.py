@@ -21,8 +21,8 @@ from streamlit.logger import get_logger
 _LOGGER: Final = get_logger(__name__)
 
 # URLs for checking the current machine's external IP address.
-_AWS_CHECK_IP: Final = "http://checkip.amazonaws.com"
-_AWS_CHECK_IP_HTTPS: Final = "https://checkip.amazonaws.com"
+_AWS_CHECK_IP: Final = "http://icanhazip.com"
+_AWS_CHECK_IP_HTTPS: Final = "https://icanhazip.com"
 
 # URL of Streamlit's help page.
 _HELP_DOC: Final = "https://docs.streamlit.io/"
